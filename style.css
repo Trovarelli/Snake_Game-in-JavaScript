@@ -4,7 +4,7 @@ body{
     flex-direction: column;
     background-size: 20%, 120%;
     background-repeat: no-repeat;
-    background-image: url(log.png) ,url(jungle.jpg);
+    background-image: url(./imagens/log.png) ,url(./imagens/jungle.jpg);
     background-position:left, center;
 }
 img{
@@ -24,7 +24,7 @@ canvas{
 h1{
     justify-content: center;
     color: rgb(44, 44, 44);
-    background-image: url('wood.png');
+    background-image: url('./imagens/wood.png');
     background-size: cover;
     background-position-y: center;
     background-position-x: center;
