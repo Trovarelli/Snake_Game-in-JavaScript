@@ -2,7 +2,10 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-image: url(jungle.jpg);
+    background-size: 20%, 120%;
+    background-repeat: no-repeat;
+    background-image: url(log.png) ,url(jungle.jpg);
+    background-position:left, center;
 }
 img{
     display: none;
@@ -18,7 +21,6 @@ canvas{
     animation-fill-mode: forwards;
     
 }
-
 h1{
     justify-content: center;
     color: rgb(44, 44, 44);
@@ -38,22 +40,20 @@ h1{
 
 #points_text{
     position: relative;
-    margin-right: 950px;
+    margin-right: 87%;
     margin-top: 150px;
     padding: 10px;
-    background-color: rgb(89, 255, 233);
+    background-color: rgb(255, 212, 133);
     border: 1px solid black;
+    z-index: 2;
 }
 
 #points{
-    margin-right: 950px;
+    margin-right: 87%;
     margin-top: 10px;
-    background-color: rgb(89, 255, 233);
-    padding: 50px;
-    padding-left: 70px;
-    padding-right: 70px;
-    font-size: 50px;
-    border: 1px solid black;
+    font-size: 60px;
+    color:rgb(214, 214, 214);
+    z-index: 2;
 }
 
 #Titulo.animar{
